@@ -37,7 +37,7 @@ node("git-websites") {
     git stash
     git status
     git remote -v
-    git fetch origin
+    git fetch --all
     git checkout asf-site
     git log asf-site -3
     git status
